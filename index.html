@@ -5,15 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Module Practice</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer type="module"></script>
   </head>
   <body>
     <h1>Konverterare</h1>
     <p>Här presenteras våra resultat</p>
     <h2 id="lengthConvert">Längdkonverterare:</h2>
-    <p>Resultat:</p>
+    <input
+      class="input"
+      id="inputLength"
+      type="text"
+      placeholder="Skriv in längd (miles)"
+    />
+    <button class="btn" id="lengthBtn">Klicka</button>
+    <p class="lo" id="lengthResult">Resultat:</p>
     <h2 id="weightConvert">Viktkonverterare:</h2>
+    <input id="inputWeight" type="text" placeholder="Skriv in vikt (kg)" />
+    <button id="weightBtn">Klicka</button>
     <p>Resultat:</p>
     <h2 id="tempConvert">Temperaturkonverterare:</h2>
+    <input id="inputTemp" type="text" placeholder="Skriv in temperatur (C)" />
+    <button id="tempBtn">Klicka</button>
     <p>Resultat:</p>
   </body>
 </html>
